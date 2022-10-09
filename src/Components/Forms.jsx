@@ -13,7 +13,7 @@ import axios from "axios";
 const Forms = () => {
   const [value, setValue] = useState(null);
   const [table, setTable] = useState([]);
-  var url = `http://192.168.0.103:8000/api/${value}`;
+  var url = `...${value}`;
   var response;
 
   const getTable = async () => {
